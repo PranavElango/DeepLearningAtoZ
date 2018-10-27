@@ -56,6 +56,7 @@ model.fit(X_train , Y_train,epochs = 100, batch_size = 32)
 dataset_test = pd.read_csv('Google_Stock_Price_Test.csv')
 test = dataset_test.iloc[:,1:2].values
 
+#total dataset
 dataset_total = pd.concat((train['open'],test['open']), axis = 0)
 
 
