@@ -4,6 +4,7 @@ Created on Tue Oct 16 01:18:51 2018
 
 @author: rg
 """
+#ArtificialNeuralNetworks
 
 #importing necessary libraries
 import numpy as np
